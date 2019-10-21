@@ -6,15 +6,15 @@
 2. 해당 프로젝트 Fork
     - git repository fork를 하여 개인 git 계정에 repository를 생성한다.
 3. 개인 remote repository를 Local로 clone 합니다.
-<pre><code>git clone git@github.com:<username>/Algo-Study.git</code></pre>
+<pre><code>git clone git@github.com:[username]/Goodee-algostudy.git</code></pre>
 4. public repository를 Upstream remote로 추가합니다.
     - origin, upstream remote가 생성된 것을 확인할 수 있습니다.
 <pre>
-<code>git remote add upstream git@github.com:KangPilGyu/Algo-Study.git</code>
+<code>git remote add upstream git@github.com:J511Y/Goodee-algostudy.git</code>
 <code>git remote -v</code>
 </pre>
 5. Branch를 생성합니다.
-<pre><code> git checkout -b <branchName></code></pre>
+<pre><code> git checkout -b [branchName]</code></pre>
 6. 소스 코드를 생성, 수정 한 후 commit 를 생성합니다.
   - commit은 [이름][주차.스터디주제]간략한 커밋 내용
   - ex) [김제니][1.DP]1101문제 수정
